@@ -1,4 +1,7 @@
 version: '2.1'
+networks:
+  default:
+    name: erigon
 
 services:
   apollo-quick-start:
